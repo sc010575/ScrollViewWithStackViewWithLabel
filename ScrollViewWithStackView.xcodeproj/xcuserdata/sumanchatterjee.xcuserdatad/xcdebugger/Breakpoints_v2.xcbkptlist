@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "takeSnapShot(for:completion:)"
+            landmarkName = "takeSnapShot(for:rect:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -31,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
             endingLineNumber = "50"
-            landmarkName = "takeSnapShot(for:completion:)"
+            landmarkName = "takeSnapShot(for:rect:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
