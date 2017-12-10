@@ -34,7 +34,8 @@ class MainViewController: UIViewController {
         
         let mapSnapshot = NMAMapSnapshot()
         let coordinate = CLLocationCoordinate2DMake(51.44325, -0.47395)
-        mapSnapshot.takeSnapShot(for: coordinate) { (image) in
+        let imageRect = CGRect(x: 0, y: 0, width: 375, height: 400)
+        mapSnapshot.takeSnapShot(for: coordinate,rect: imageRect) { (image) in
                 self.image = image
         }
         

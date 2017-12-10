@@ -18,6 +18,9 @@
 		C50C8FB01F76ADB2005DE48C /* NMAMapSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C8FAF1F76ADB2005DE48C /* NMAMapSnapshot.swift */; };
 		C50C8FB21F76BC52005DE48C /* NMAStoreLocatorAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C8FB11F76BC52005DE48C /* NMAStoreLocatorAnnotationView.swift */; };
 		C51A7AE51F86E188008A0822 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A7AE41F86E188008A0822 /* SecondViewController.swift */; };
+		C5FB30011F8CD5B400CCB503 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB30001F8CD5B400CCB503 /* DetailView.swift */; };
+		C5FB30031F8CD5C800CCB503 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FB30021F8CD5C800CCB503 /* DetailView.xib */; };
+		C5FB30051F8CD6AF00CCB503 /* Bundle+loadViewFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB30041F8CD6AF00CCB503 /* Bundle+loadViewFromNib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		C50C8FAF1F76ADB2005DE48C /* NMAMapSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMAMapSnapshot.swift; sourceTree = "<group>"; };
 		C50C8FB11F76BC52005DE48C /* NMAStoreLocatorAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMAStoreLocatorAnnotationView.swift; sourceTree = "<group>"; };
 		C51A7AE41F86E188008A0822 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C5FB30001F8CD5B400CCB503 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C5FB30021F8CD5C800CCB503 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		C5FB30041F8CD6AF00CCB503 /* Bundle+loadViewFromNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+loadViewFromNib.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 				C50C8F961F75A1CB005DE48C /* Info.plist */,
 				C50C8FB11F76BC52005DE48C /* NMAStoreLocatorAnnotationView.swift */,
 				C51A7AE41F86E188008A0822 /* SecondViewController.swift */,
+				C5FB30001F8CD5B400CCB503 /* DetailView.swift */,
+				C5FB30021F8CD5C800CCB503 /* DetailView.xib */,
+				C5FB30041F8CD6AF00CCB503 /* Bundle+loadViewFromNib.swift */,
 			);
 			path = ScrollViewWithStackView;
 			sourceTree = "<group>";
@@ -204,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C50C8F951F75A1CB005DE48C /* LaunchScreen.storyboard in Resources */,
+				C5FB30031F8CD5C800CCB503 /* DetailView.xib in Resources */,
 				C50C8F921F75A1CB005DE48C /* Assets.xcassets in Resources */,
 				C50C8F901F75A1CB005DE48C /* Main.storyboard in Resources */,
 			);
@@ -226,6 +236,8 @@
 				C51A7AE51F86E188008A0822 /* SecondViewController.swift in Sources */,
 				C50C8FAE1F767BBF005DE48C /* MainViewController.swift in Sources */,
 				C50C8FB01F76ADB2005DE48C /* NMAMapSnapshot.swift in Sources */,
+				C5FB30051F8CD6AF00CCB503 /* Bundle+loadViewFromNib.swift in Sources */,
+				C5FB30011F8CD5B400CCB503 /* DetailView.swift in Sources */,
 				C50C8F8D1F75A1CB005DE48C /* ViewController.swift in Sources */,
 				C50C8F8B1F75A1CB005DE48C /* AppDelegate.swift in Sources */,
 				C50C8FB21F76BC52005DE48C /* NMAStoreLocatorAnnotationView.swift in Sources */,
@@ -383,7 +395,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dreamapps.ScrollViewWithStackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -395,7 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dreamapps.ScrollViewWithStackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

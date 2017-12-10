@@ -13,15 +13,15 @@ public typealias CompletionHandler = (_ image: UIImage?) -> Void
 
 protocol NMAMapSnapshotable {
     func takeSnapShot(for coordinate: CLLocationCoordinate2D
-,completion:@escaping CompletionHandler)
+        ,rect:CGRect , completion:@escaping CompletionHandler)
     
 }
 
 struct NMAMapSnapshot: NMAMapSnapshotable {
     
-    func takeSnapShot(for coordinate: CLLocationCoordinate2D,completion:@escaping CompletionHandler) {
+    func takeSnapShot(for coordinate: CLLocationCoordinate2D,rect: CGRect , completion:@escaping CompletionHandler) {
         
-        let rect = CGRect(x: 0, y: 0, width: 375, height: 100)
+        let rect = rect
         let mapSnapshotOptions = MKMapSnapshotOptions()
 
         let location = coordinate
